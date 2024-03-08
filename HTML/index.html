@@ -6,9 +6,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Main</title>
     <link rel="stylesheet" href="../Styles/Style.css">
+    <link rel="stylesheet" href="../Styles/StyleFooter.css">
+    <link rel="stylesheet" href="../Styles/StyleHeader.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 </head>
 
 <body>
+    <header>
+        <nav class="nav">
+            <div class="logo"><img src="../Img/clinic_logo.png"></div>
+            <div class="phoneNam">
+                <label class="Hotphone">0 800 30 30 18</label>
+                <label class="con">Безкоштовно зі всіх операторів</label>
+            </div>
+            <Button class="btn-rec"><p>Запис онлайн</p></Button>
+            <div class="my-acc-cont">
+                <span class="icon-acc"><img src="../Img/user_logo.png"></span>
+                <label class="text-acc">Личний кабинет</label>
+                <label class="text-loca">Адреса и время работы</label>
+                <span class="icon-loc"><img src="../Img/caret_logo.png"></span>
+            </div>
+            <div class="switch-btn"></div>
+        </nav>
+        <div class="menu">
+            <form class="box">
+                <div class="container-1">
+                    <span class="icon"><img src="../Img/loupe_black_logo.png"></span>
+                    <input type="search" id="search" placeholder="Пошук" />
+                </div>
+            </form>
+        </div>
+    </header>
+    
     <div class=" container">
     
             <div class="item1">
@@ -32,6 +63,22 @@
             </div>
 
     </div>
+    <footer>
+        <div class="footer-left-block">
+            <p class="footer-text upper">Бажаєте, передзвонимо Вам</p>
+            <p class="footer-text lower">за 30 секунд?</p>
+        </div>
+        <div class="footer-middle-block">
+            <span>Ваш номер телефона</span>
+            <button id="resetBtn">ПЕРЕДЗВОНИТЕ</button>
+        </div>
+        <div class="footer-right-block">
+            <img src="../Img/timer_logo.png">
+            <span class="footer-timer"><span class="gray-number">00:</span><span class="orange-number" id="seconds">00</span><span class="gray-number">:00</span></span>
+        </div>
+    </footer>
+
+    <script src="../js/script.js"></script>
 </body>
 
 </html>

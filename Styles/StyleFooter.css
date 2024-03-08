@@ -1,0 +1,118 @@
+:root {
+    /* background colors */
+    --top-header-bg-color: rgb(246,248,247);
+    --bottom-header-bg-color: white;
+    --top-header-switcher-bg-color: rgb(167,224,217);
+    --main-bg-color: white;
+    --main-shadow-bg-color: rgb(213,213,213);
+    --main-button-bg-color: rgb(49,187,172);
+
+    /* font colors */
+    --green-color: rgb(41,155,142);
+
+    /* font families */
+    --footer-family: 'Roboto', sans-serif;
+
+    /* settings */
+    --padding-l-r: 20svh;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: var(--top-header-bg-color);
+    box-shadow: 0 5px 5px var(--main-shadow-bg-color);
+}
+
+.top-header {
+    background-color: var(--top-header-bg-color);
+    min-height: 10svh;
+    padding: 0 var(--padding-l-r);
+}
+
+.bottom-header {
+    background-color: var(--bottom-header-bg-color);
+    min-height: 7.5svh;
+    padding: 0 var(--padding-l-r);
+}
+
+body {
+    background-color: var(--main-bg-color);
+    display: flex;
+    flex-direction: column;
+    min-height: 100svh;
+}
+
+footer {
+    display: inline-flex;
+    background-color: var(--main-bg-color);
+    min-height: 15svh;
+    margin-bottom: 15svh;
+    padding: 0 var(--padding-l-r);
+    font-family: var(--footer-family);
+}
+
+.footer-left-block {
+    margin-top: 7.5svh;
+    width: 40%;
+}
+
+.footer-text {
+    text-align: center;
+    font-size: 28px;
+}
+
+/* todo lighter font weight*/
+.footer-text.upper {
+    color: rgb(245,138,7);
+}
+
+.footer-text.lower {
+    color: var(--green-color);
+    font-weight: bold;
+}
+
+.footer-middle-block {
+    display: inline-flex;
+    margin-top: 7.5svh;
+    width: 40%;
+}
+
+.footer-middle-block span {
+    border-radius: 30px 0 0 30px;
+    border-style: solid;
+    border-color: rgba(196, 196, 196, 1);
+    padding: 5% 15% 0 5%;
+    border-width: 1px;
+    color: rgba(196, 196, 196, 1);
+}
+
+.footer-middle-block button {
+    background-color: rgba(49, 187, 172, 1);
+    color: white;
+    border-radius: 0 30px 30px 0;
+    border: 0;
+    padding: 0 8%;
+}
+
+.footer-right-block {
+    margin-top: 7.5svh;
+    width: 20%;
+    display: inline-flex;
+}
+
+.footer-right-block .footer-timer {
+    margin: 5% 0 0 5%;
+    font-size: 38px;
+}
+
+.footer-right-block .footer-timer .gray-number {
+    color: rgb(196,196,196);
+}
+
+.footer-right-block .footer-timer .orange-number {
+    color: rgb(245,138,7);
+}

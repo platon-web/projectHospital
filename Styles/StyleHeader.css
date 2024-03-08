@@ -1,0 +1,175 @@
+body{
+    margin: 0;
+    /* background-color: blanchedalmond; */
+}
+
+.nav{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    justify-content: center;
+    width: 1920px;
+    height: 98px;
+    background: #F6F8F7;
+}
+
+.logo {
+    display: flex;
+    padding: 19.13px 0 19.13px 0; 
+}
+
+
+.phoneNam{
+    display: block;
+    width: 263px;
+    height: 39.45px;
+    padding-top: 4px;
+    padding-left: 100px;
+    margin-top: 0;
+}
+.Hotphone{
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    line-height: 53px;
+    font-size: 35px;
+    font-style: bold;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.phoneNam .con{
+    font-family: Roboto, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 24px;
+    letter-spacing: 0.11em;
+    color: #7A8891;
+}
+
+
+.btn-rec{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    width: 149px;
+    height: 36px;
+    margin-top: 28px;
+    margin-left: 86px;
+    border-radius: 27px;
+    background: #F58A07;
+    border: none;
+}
+.btn-rec p{
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 15px;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+}
+
+
+.my-acc-cont{
+    display: flex;  
+    justify-content: center;
+    width: 356px;
+    height: 36px;
+    padding-top: 27px;
+    padding-left: 52px;
+
+}
+.my-acc-cont .text-acc{
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 11px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #299B8E;
+    padding-top: 12px;
+}
+
+.my-acc-cont .text-loca{
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #333333;
+    padding-top: 11px;
+    padding-left: 28px;
+}
+.my-acc-cont .icon-loc{
+    padding-top: 9px;
+}
+
+.switch-btn {
+    display: inline-block;
+    width: 66px; /* ширина */
+    height: 36px; /* высота */
+    border-radius: 20px; /* радиус скругления */
+    background: #bfbfbf; /* цвет фона */
+    z-index: 0;
+    margin: 0;
+    padding: 0;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    transition-duration: 300ms; /* анимация */
+  }
+  .switch-btn::after {
+    content: "ua";
+    height: 30px; /* высота кнопки */
+    width: 30px; /* ширина кнопки */
+    border-radius: 17px;
+    background: #fff; /* цвет кнопки */
+    top: 3px; /* положение кнопки по вертикали относительно основы */
+    left: 3px; /* положение кнопки по горизонтали относительно основы */
+    transition-duration: 300ms; /* анимация */
+    position: absolute;
+    z-index: 1;
+  }
+
+.menu{
+    display: block;
+    margin-top: 0;
+    width: 1920px;
+    height: 60px;
+    background: #FFFFFF;
+}
+.container-1{
+    width: 300px;
+    padding-left: 320px;
+    padding-top: 12px;
+    position: relative;
+}
+.container-1 input#search{
+    width: 524px;
+    height: 36px;
+    top: 109px;
+    left: 320px;
+    border-radius: 20px;
+    background: #E0E0E0;
+    border: none;
+    box-shadow: 0px 1.0900901556015015px 2.180180311203003px 0px #61616133 inset;
+    box-shadow: 0px 0.5450450778007507px 1.0900901556015015px 0px #61616133 inset;  
+    font-size: 10pt;
+    float: left;
+    color: #63717f;
+    padding-left: 45px;
+}
+.icon img{
+    width: 18px;
+    height: 18px;
+    top: 118.37px;
+    left: 336px;
+}
+.container-1 .icon{
+    position: absolute;
+    top: 50%;
+    margin-left: 17px;
+    margin-top: 14px;
+    z-index: 1;
+    color: #4f5b66;
+}
+/* поле пошуку кінець (menu) */
