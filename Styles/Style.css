@@ -6,6 +6,8 @@
     color: black;
     font-family: Roboto;
     font-weight: bold;
+    font-size: 30px;
+    margin-top:10px
 }
 
 .container {
@@ -19,11 +21,12 @@
 .grey {
     color:  #7A8891;
     font-size: 100px;
+    font-family: "Gotham Pro Bold", "Gotham Pro Regular", "Gotham Pro Light", "Gotham Pro Medium", Gotham Pro";
 }
 
 .color {
     color: #7A8891;
-
+font-family: "Roboto";
     font-size: 25px;
 }
 
@@ -32,22 +35,24 @@
     float: left;
     height: 400px;
     margin-right: 10px;
-    width: 200px;
-
+    width: 400px;
     margin-bottom:50px;
 }
 
 .item2 {
     clear: left;
     float: left;
+    
     height: 15px;
-    margin-top: 10px;
+    margin-top: -97px;
 }
 
 .item3 {
+    position: right;
+margin-left: 700px;
     width:594.39px;
     height: 509.97px;
-    overflow: hidden;
+    overflow:hidden;
 
 }
 
@@ -58,4 +63,9 @@ ul {
 li {
     margin: 10px;
     margin-left: -40px;
+}
+a{
+    text-decoration: none;
+    color: #299B8E;
+    
 }
