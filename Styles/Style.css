@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+}
+
+.error {
+    color: black;
+    font-family: Roboto;
+    font-weight: bold;
+}
+
+.container {
+    margin-right: 300px;
+    margin-left: 300px;
+
+    margin-top: 200px;
+}
+
+
+.grey {
+    color:  #7A8891;
+    font-size: 100px;
+}
+
+.color {
+    color: #7A8891;
+
+    font-size: 25px;
+}
+
+.item1 {
+   position: relative;
+    float: left;
+    height: 400px;
+    margin-right: 10px;
+    width: 200px;
+
+    margin-bottom:50px;
+}
+
+.item2 {
+    clear: left;
+    float: left;
+    height: 15px;
+    margin-top: 10px;
+}
+
+.item3 {
+    width:594.39px;
+    height: 509.97px;
+    overflow: hidden;
+
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    margin: 10px;
+    margin-left: -40px;
+}
