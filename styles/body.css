@@ -1,0 +1,82 @@
+body {
+    background-color: var(--main-bg-color);
+    display: flex;
+    flex-direction: column;
+    min-height: 100svh;
+    overflow: hidden;
+    overflow-wrap: anywhere;
+}
+
+.error-404 {
+    color: black;
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 10px
+}
+
+.container {
+    flex: 1;
+    margin-right: 300px;
+    margin-left: 300px;
+
+    margin-top: 200px;
+}
+
+
+.h1 {
+    color: #7A8891;
+    font-size: 100px;
+    font-family: "Gotham Pro Bold", "Gotham Pro Regular", "Gotham Pro Light", "Gotham Pro Medium", Gotham Pro";
+
+}
+
+.error-text {
+    color: #7A8891;
+    font-family: "Roboto";
+    font-size: 25px;
+}
+
+.list {
+    font-size: 24px;
+}
+
+.body-left-up {
+    position: relative;
+    float: left;
+    height: 400px;
+    margin-right: 10px;
+    width: 400px;
+    margin-bottom: 50px;
+}
+
+.body-left-bottom {
+    clear: left;
+    float: left;
+    height: 15px;
+    margin-top: -97px;
+}
+
+.body-right {
+    position: right;
+    margin-left: 700px;
+    width: 594.39px;
+    height: 509.97px;
+    overflow: hidden;
+
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    margin: 10px;
+    margin-left: -40px;
+}
+
+a {
+    text-decoration: none;
+    color: #299B8E;
+
+}

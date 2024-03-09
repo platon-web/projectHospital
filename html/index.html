@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Клініка вихідного дня</title>
+    <link rel="stylesheet" href="../styles/fonts.css">
+    <link rel="stylesheet" href="../styles/common.css">
+    <link rel="stylesheet" href="../styles/header.css">
+    <link rel="stylesheet" href="../styles/body.css">
+    <link rel="stylesheet" href="../styles/footer.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="top-header">
+            <nav class="nav">
+                <div class="logo"><img src="../images/clinic_logo.png"></div>
+                <div class="phone-number">
+                    <label class="number">0 800 30 30 18</label>
+                    <label class="operator">Безкоштовно зі всіх операторів</label>
+                </div>
+                <Button class="btn-rec">
+                    <p>Запис онлайн</p>
+                </Button>
+                <div class="my-acc-cont">
+                    <span class="icon-acc"><img src="../images/user_logo.png"></span>
+                    <label class="text-acc">Личний кабинет</label>
+                    <label class="text-loca">Адреса и время работы</label>
+                    <span class="icon-loc"><img src="../images/caret_logo.png"></span>
+                </div>
+                <div class="switch-btn"></div>
+            </nav>
+        </div>
+        <div class="bottom-header">
+            <div class="menu">
+                <form class="box">
+                    <div class="container-search">
+                        <span class="icon"><img src="../images/loupe_black_logo.png"></span>
+                        <input type="search" id="search" placeholder="Пошук" />
+                    </div>
+                </form>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+
+        <div class=" body-left-up">
+            <p class="h1">ОЙ!</p>
+            <p class="error-text">Схоже, ми не можемо знайти потрібну вам сторінку</p>
+            <p class="error-404">Код помилки: 404</p>
+        </div>
+        <div class=" body-left-bottom">
+            <p class="list">Натомість, ось декілька корисних посилань:</p>
+            <ul>
+                <li> <a href="">Головна</a></li>
+                <li><a href="">Пошук</a></li>
+                <li> <a href="">Підтримка</a></li>
+                <li><a href="">Новини</a></li>
+                <li><a href="">Контакти</a> </li>
+            </ul>
+        </div>
+
+        <div class=" body-right">
+            <img src="../images/people_logo.png" alt="Doctors">
+        </div>
+
+    </div>
+
+    <footer>
+        <div class="block footer-left-block">
+            <p class="footer-text upper">Бажаєте, передзвонимо Вам</p>
+            <p class="footer-text lower">за 30 секунд?</p>
+        </div>
+        <div class="block footer-middle-block">
+            <input placeholder="Ваш номер телефона"></input>
+            <button id="resetBtn">ПЕРЕДЗВОНИТЕ</button>
+        </div>
+        <div class="block footer-right-block">
+            <img src="../images/timer_green_logo.png">
+            <span class="footer-timer"><span class="gray-number">00:</span><span class="orange-number"
+                    id="seconds">00</span><span class="gray-number">:00</span></span>
+        </div>
+    </footer>
+
+    <script src="../js/script.js"></script>
+</body>
+
+</html>
