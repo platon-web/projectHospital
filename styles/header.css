@@ -1,0 +1,16 @@
+header {
+    background-color: var(--top-header-bg-color);
+    box-shadow: 0 5px 5px var(--main-shadow-bg-color);
+}
+
+.top-header {
+    background-color: var(--top-header-bg-color);
+    min-height: 10svh;
+    padding: 0 12%;
+}
+
+.bottom-header {
+    background-color: var(--bottom-header-bg-color);
+    min-height: 7.5svh;
+    padding: 0 12%;
+}
