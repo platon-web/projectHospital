@@ -52,7 +52,7 @@
     }
 
     .footer-timer-logo {
-        content: url("../images/timer_green_logo.png");
+        content: url("../images/timer_green_logo.svg");
     }
 
     .footer-timer {
@@ -115,7 +115,7 @@
     }
 
     .footer-timer-logo {
-        content: url("../images/timer_white_logo.png");
+        content: url("../images/timer_white_logo.svg");
     }
 
     .footer-timer {
