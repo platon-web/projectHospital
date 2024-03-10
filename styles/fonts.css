@@ -2,3 +2,8 @@
     font-family: robotoLight;
     src: url(../public/fonts/Roboto-Light.ttf);
 }
+
+@font-face {
+    font-family: gothamProRegular;
+    src: url(../public/fonts/GothamProMedium.ttf);
+}

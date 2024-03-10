@@ -1,7 +1,7 @@
 @media (min-width: 962px) {
     footer {
         display: grid;
-        grid-template-columns: 1.5fr 1.5fr 1fr;
+        grid-template-columns: 1.4fr 2fr 1fr;
         background-color: white;
         margin-bottom: 5%;
         padding: 0 10%;
@@ -162,10 +162,15 @@
     color: gray;
 }
 
+.footer-middle-block input::placeholder {
+    color: rgba(156, 156, 156, 1);
+}
+
 .footer-middle-block button {
     color: white;
     border: 0;
     font-size: 20px;
+    width: 35svh;
 }
 
 .footer-middle-block button:hover {

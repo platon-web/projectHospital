@@ -1,3 +1,7 @@
+@media (min-width: 962px) {}
+
+@media (max-width: 961px) {}
+
 header {
     background-color: var(--top-header-bg-color);
     box-shadow: 0 5px 5px var(--main-shadow-bg-color);
@@ -6,11 +10,198 @@ header {
 .top-header {
     background-color: var(--top-header-bg-color);
     min-height: 10svh;
-    padding: 0 12%;
+    padding: 0 10%;
 }
 
 .bottom-header {
     background-color: var(--bottom-header-bg-color);
     min-height: 7.5svh;
-    padding: 0 12%;
+    padding: 0 10%;
+}
+
+.top-header {
+    display: grid;
+    grid-template-columns: 1.5fr 2fr 1.25fr 1.25fr 1.5fr 0.75fr;
+    text-align: center;
+}
+
+.block {
+    display: flex;
+    justify-content: center;
+}
+
+.top-header-first-block {
+    grid-column: 1;
+}
+
+.top-header-first-block .main-logo {
+    content: url("../images/clinic_logo.svg");
+    text-align: center;
+    padding: 7.5% 0;
+}
+
+.top-header-second-block {
+    flex-direction: column;
+    grid-column: 2;
+}
+
+.top-header-second-block .phone {
+    font-family: gothamProRegular;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgba(51, 51, 51, 1);
+    margin-bottom: 1%;
+}
+
+.top-header-second-block .phone-text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    color: rgba(122, 136, 145, 1);
+    letter-spacing: 0.15svh;
+}
+
+.top-header-third-block {
+    align-items: center;
+    grid-column: 3;
+}
+
+.top-header-third-block button {
+    background-color: rgba(245, 138, 7, 1);
+    color: white;
+    padding: 4% 10%;
+    border: 0;
+    border-radius: 27px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+.top-header-third-block button:hover {
+    background-color: rgb(220, 125, 8);
+    cursor: pointer;
+}
+
+.top-header-fourth-block {
+    grid-column: 4;
+}
+
+.top-header-fourth-block .account-text {
+    color: rgba(41, 155, 142, 1);
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    margin-bottom: 1%;
+}
+
+.top-header-fifth-block {
+    grid-column: 5;
+}
+
+.top-header-fifth-block .address-time-text {
+    color: rgba(51, 51, 51, 1);
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+.top-header-fifth-block .address-time-logo {
+    margin-left: 2%;
+}
+
+.top-header-sixth-block {
+    grid-column: 6;
+}
+
+.switch-btn {
+    display: inline-block;
+    position: relative;
+    width: 66px;
+    height: 36px;
+    border-radius: 20px;
+    background: #A4E1D9;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #A4E1D9;
+    -webkit-transition: .4s;
+    transition: .4s;
+    border-radius: 34px;
+}
+
+.slider:before {
+    border-radius: 50%;
+}
+
+.slider:before {
+    position: absolute;
+    content: "UA";
+    font-family: "GothamProLight", sans-serif;
+    font-size: small;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked+.slider {
+    background-color: #259589;
+}
+
+input:focus+.slider {
+    box-shadow: 0 0 1px #259589;
+}
+
+input:checked+.slider:before {
+    transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    -webkit-transform: translateX(26px);
+}
+
+.lng-sign {
+    font-family: "GothamProBold", sans-serif;
+    font-size: small;
+    color: rgba(32, 154, 143, 1);
+    margin-left: 55%;
+    margin-top: 16%;
+}
+
+.bottom-header-first-block {
+    position: relative;
+    padding-top: 0.8%;
+}
+
+.bottom-header-first-block input {
+    font-family: 'Roboto', sans-serif;
+    width: 35%;
+    height: 35px;
+    border-radius: 20px;
+    background: rgba(224, 224, 224, 0.5);
+    border: none;
+    box-shadow: 0px 1px 2px rgb(186, 186, 186) inset;
+    font-size: 14px;
+    padding-left: 40px;
+    color: rgba(156, 156, 156, 1);
+}
+
+.bottom-header-first-block input:focus {
+    outline: none;
+}
+
+.bottom-header-first-block input::placeholder {
+    color: rgba(156, 156, 156, 1);
+}
+
+.bottom-header-first-block .loupe-logo {
+    position: absolute;
+    padding-top: 0.6%;
+    padding-left: 1%;
 }
