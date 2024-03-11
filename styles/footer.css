@@ -28,7 +28,7 @@
     }
 
     .footer-text.lower {
-        color: var(--green-color);
+        color: rgb(41,155,142);
     }
 
     .footer-middle-block input {
@@ -153,12 +153,12 @@
 }
 
 .footer-middle-block input {
-    border: 1px solid gray;
+    border: 1px solid rgba(156, 156, 156, 1);
 }
 
 .footer-middle-block input:focus {
     outline: none;
-    border: 1px solid gray;
+    border: 1px solid rgba(156, 156, 156, 1);
     color: gray;
 }
 
