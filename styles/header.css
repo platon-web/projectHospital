@@ -1,21 +1,23 @@
 @media (min-width: 962px) {
-    header {box-shadow: 0 5px 5px rgb(213,213,213);
+    header {
+        box-shadow: 0 5px 5px rgb(213, 213, 213);
     }
-    
+
     .top-header {
         min-height: 10svh;
         padding: 0 10%;
     }
-    
-    .bottom-header {background-color: white;
+
+    .bottom-header {
+        background-color: white;
         min-height: 7.5svh;
         padding: 0 10%;
     }
-    
+
     .top-header {
         grid-template-columns: 1.5fr 2fr 1.25fr 1.25fr 1.5fr 0.75fr;
     }
-    
+
     .top-header-first-block .main-logo {
         text-align: center;
         padding: 7.5% 0;
@@ -24,11 +26,11 @@
     .top-header-first-block .menu-deployment-logo {
         display: none;
     }
-    
+
     .top-header-second-block {
         flex-direction: column;
     }
-    
+
     .top-header-second-block .phone {
         font-family: gothamProMedium;
         font-size: 30px;
@@ -36,7 +38,7 @@
         color: rgba(51, 51, 51, 1);
         margin-bottom: 1%;
     }
-    
+
     .top-header-second-block .phone-text {
         font-family: 'Roboto', sans-serif;
         font-size: 12px;
@@ -51,11 +53,11 @@
     .top-header-third-block .phone-logo {
         display: none;
     }
-    
+
     .top-header-third-block {
         align-items: center;
     }
-    
+
     .top-header-third-block button {
         background-color: rgba(245, 138, 7, 1);
         color: white;
@@ -65,12 +67,12 @@
         font-family: 'Roboto', sans-serif;
         font-size: 14px;
     }
-    
+
     .top-header-third-block button:hover {
         background-color: rgb(220, 125, 8);
         cursor: pointer;
     }
-    
+
     .top-header-fourth-block .account-text {
         color: rgba(41, 155, 142, 1);
         font-family: 'Roboto', sans-serif;
@@ -81,13 +83,13 @@
     .top-header-fourth-block .main-logo {
         display: none;
     }
-    
+
     .top-header-fifth-block .address-time-text {
         color: rgba(51, 51, 51, 1);
         font-family: 'Roboto', sans-serif;
         font-size: 14px;
     }
-    
+
     .top-header-fifth-block .address-time-logo {
         margin-left: 2%;
     }
@@ -99,8 +101,9 @@
     .top-header-sixth-block .lang-text-mobile {
         display: none;
     }
-    
-    .switch-btn {position: relative;
+
+    .switch-btn {
+        position: relative;
         width: 66px;
         height: 36px;
         border-radius: 20px;
@@ -112,52 +115,58 @@
         width: 0;
         height: 0;
     }
-    
+
     .slider {
         position: absolute;
-        cursor: pointer;left: 0;
-        right: 0;background-color: rgb(167,224,217);
+        cursor: pointer;
+        left: 0;
+        right: 0;
+        background-color: rgb(167, 224, 217);
         border-radius: 20px 20px 10px 10px;
         padding-top: 8px;
     }
-    
+
     .slider:before {
         border-radius: 50%;
         box-shadow: 0px 0.75px 1px 0px gray;
     }
-    
+
     .slider:before {
         background-color: white;
         color: rgba(91, 91, 91, 1);
-        position: absolute;display: flex;
+        position: absolute;
+        display: flex;
         align-items: center;
         justify-content: center;
         font-family: 'Roboto', sans-serif;
         font-size: 14px;
         height: 26px;
-        width: 26px;left: 5px;
+        width: 26px;
+        left: 5px;
         top: 5px;
         content: "UA";
         transition: .3s;
         -webkit-transition: .3s;
     }
-    
-    input:checked+.slider:before {content: "RU";
+
+    input:checked+.slider:before {
+        content: "RU";
         transform: translateX(30px);
         -ms-transform: translateX(30px);
         -webkit-transform: translateX(30px);
     }
-    
+
     .lng-sign {
         font-family: 'Roboto', sans-serif;
         font-size: 14px;
-        color: rgba(32, 154, 143, 1);}
-    
+        color: rgba(32, 154, 143, 1);
+    }
+
     .bottom-header-first-block {
         position: relative;
         padding-top: 0.8%;
     }
-    
+
     .bottom-header-first-block input {
         font-family: 'Roboto', sans-serif;
         width: 35%;
@@ -170,32 +179,32 @@
         padding-left: 40px;
         color: rgba(156, 156, 156, 1);
     }
-    
+
     .bottom-header-first-block input:focus {
         outline: none;
     }
-    
+
     .bottom-header-first-block input::placeholder {
         color: rgba(156, 156, 156, 1);
     }
-    
+
     .bottom-header-first-block .loupe-logo {
         position: absolute;
-        padding-top: 0.6%;
+        padding-top: 8px;
         padding-left: 1%;
     }
 }
 
-@media (max-width: 961px) {    
+@media (max-width: 961px) {
     .top-header {
         min-height: 5svh;
         padding: 0 5%;
     }
-    
+
     .bottom-header {
         display: none;
     }
-    
+
     .top-header {
         grid-template-columns: 1fr 1fr 1fr 5fr 1fr 1fr;
     }
@@ -246,12 +255,15 @@
         display: none;
     }
 
-    .top-header-sixth-block .lang-text-mobile {font-family: 'Roboto', sans-serif;
-        font-size: 18px;color: rgba(32, 154, 143, 1);
+    .top-header-sixth-block .lang-text-mobile {
+        font-family: 'Roboto', sans-serif;
+        font-size: 18px;
+        color: rgba(32, 154, 143, 1);
     }
 }
 
-.top-header {background-color: rgb(246,248,247);
+.top-header {
+    background-color: rgb(246, 248, 247);
 }
 
 .top-header {

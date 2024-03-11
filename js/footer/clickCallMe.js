@@ -5,7 +5,6 @@ const updateTimer = () => {
     let secondsText = document.getElementById("seconds");
     if (currentSeconds <= 0) {
         clearInterval(intervalId);
-        //resetTimer();
     }
     secondsText.textContent = currentSeconds.toString().padStart(2, "0");
 }
@@ -23,7 +22,7 @@ const resetTimer = () => {
 const maxSeconds = 29;
 let currentSeconds = maxSeconds;
 
-document.getElementById("resetBtn").addEventListener("click", function () {
+document.getElementById("resetBtn").addEventListener("click", time = () => {
     resetTimer();
     startTimer();
 });
