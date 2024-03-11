@@ -33,8 +33,7 @@ body {
     gap: 20px;
     grid-template-columns: auto ; 
     grid-template-rows:4fr 2fr;
-    margin-right: 300px;
-    margin-left: 300px;
+
 
 
 }
@@ -58,9 +57,9 @@ body {
 .body-left-up {
     /* grid-column: 2/3;
    grid-row:1/3; */
-    height: 400px;
+    /* height: 400px;
     margin-right: 10px;
-    width: 400px;
+    width: 400px; */
 
 }
 
@@ -78,10 +77,8 @@ body {
     grid-template-rows: 2fr; */
     /* grid-column: 1/2;
     grid-row:2/3; */
-    margin-left: 700px;
-    margin-top: -450px;
-
-
+    /* margin-left: 700px;
+    margin-top: -450px; */
 
 }
 
@@ -105,5 +102,5 @@ a {
 .image {
     width: 594.39px;
     height: 509.97px;
-    margin-top: -220px;
+    /* margin-top: -220px; */
 }
