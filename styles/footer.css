@@ -1,12 +1,3 @@
-<<<<<<< Updated upstream
-footer {
-    display: grid;
-    grid-template-columns: 1.5fr 1.5fr 1fr;
-    background-color: var(--bottom-header-bg-color);
-    margin-bottom: 5%;
-    padding: 0 10%;
-    font-family: 'Roboto', sans-serif;
-=======
 @media (min-width: 962px) {
     footer {
         display: grid;
@@ -141,7 +132,6 @@ footer {
         margin-bottom: 5%;
         font-size: 12px;
     }
->>>>>>> Stashed changes
 }
 
 .block {
@@ -150,80 +140,47 @@ footer {
     justify-content: center;
 }
 
-.footer-left-block {
-    flex-direction: column;
-    grid-column: 1;
-    font-size: 28px;
-}
-
 .footer-text.upper {
-    color: rgb(245,138,7);
     font-family: robotoLight;
 }
 
 .footer-text.lower {
-    color: var(--green-color);
     font-weight: bold;
 }
 
 .footer-middle-block {
-    grid-column: 2;
     height: 100%;
-    font-size: 20px;
 }
 
 .footer-middle-block input {
-<<<<<<< Updated upstream
-    border-radius: 30px 0 0 30px;
-    height: inherit;
-    border: 1px solid gray;
-    padding: 0 2.5%;
-    font-size: inherit;
-=======
     border: 1px solid rgba(156, 156, 156, 1);
->>>>>>> Stashed changes
 }
 
 .footer-middle-block input:focus {
     outline: none;
-<<<<<<< Updated upstream
-    border:1px solid gray;
-=======
     border: 1px solid rgba(156, 156, 156, 1);
->>>>>>> Stashed changes
     color: gray;
+}
+
+.footer-middle-block input::placeholder {
+    color: rgba(156, 156, 156, 1);
 }
 
 .footer-middle-block button {
-    background-color: rgba(49, 187, 172, 1);
     color: white;
-    border-radius: 0 30px 30px 0;
-    height: inherit;
-    outline: 1px solid rgba(49, 187, 172, 1);
     border: 0;
-    padding: 0 2%;
-    font-size: inherit;
-    min-width: 25%;
+    font-size: 20px;
+    width: 35svh;
 }
 
 .footer-middle-block button:hover {
-    background-color: rgb(42, 159, 145);
     cursor: pointer;
 }
 
-.footer-right-block {
-    grid-column: 3;
-}
-
 .footer-timer {
-    padding-left: 5%;
     font-size: 50px;
 }
 
-.gray-number {
-    color: gray;
-}
-
 .orange-number {
-    color: orange;
+    color: rgba(245, 138, 7, 1);
 }
