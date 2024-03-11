@@ -1,12 +1,313 @@
+<<<<<<< Updated upstream
 header {
     background-color: var(--top-header-bg-color);
     box-shadow: 0 5px 5px var(--main-shadow-bg-color);
+=======
+@media (min-width: 962px) {
+    header {
+        box-shadow: 0 5px 5px var(--main-shadow-bg-color);
+        box-shadow: 0 5px 5px rgb(213,213,213);
+    }
+    
+    .top-header {
+        min-height: 10svh;
+        padding: 0 10%;
+    }
+    
+    .bottom-header {
+        background-color: var(--bottom-header-bg-color);
+        background-color: white;
+        min-height: 7.5svh;
+        padding: 0 10%;
+    }
+    
+    .top-header {
+        grid-template-columns: 1.5fr 2fr 1.25fr 1.25fr 1.5fr 0.75fr;
+    }
+    
+    .top-header-first-block .main-logo {
+        text-align: center;
+        padding: 7.5% 0;
+    }
+
+    .top-header-first-block .menu-deployment-logo {
+        display: none;
+    }
+    
+    .top-header-second-block {
+        flex-direction: column;
+    }
+    
+    .top-header-second-block .phone {
+        font-family: gothamProMedium;
+        font-size: 30px;
+        font-weight: bold;
+        color: rgba(51, 51, 51, 1);
+        margin-bottom: 1%;
+    }
+    
+    .top-header-second-block .phone-text {
+        font-family: 'Roboto', sans-serif;
+        font-size: 12px;
+        color: rgba(122, 136, 145, 1);
+        letter-spacing: 0.15svh;
+    }
+
+    .top-header-second-block .loupe-green-logo {
+        display: none;
+    }
+
+    .top-header-third-block .phone-logo {
+        display: none;
+    }
+    
+    .top-header-third-block {
+        align-items: center;
+    }
+    
+    .top-header-third-block button {
+        background-color: rgba(245, 138, 7, 1);
+        color: white;
+        padding: 5% 15%;
+        border: 0;
+        border-radius: 27px;
+        font-family: 'Roboto', sans-serif;
+        font-size: 14px;
+    }
+    
+    .top-header-third-block button:hover {
+        background-color: rgb(220, 125, 8);
+        cursor: pointer;
+    }
+    
+    .top-header-fourth-block .account-text {
+        color: rgba(41, 155, 142, 1);
+        font-family: 'Roboto', sans-serif;
+        font-size: 13px;
+        margin-bottom: 1%;
+    }
+
+    .top-header-fourth-block .main-logo {
+        display: none;
+    }
+    
+    .top-header-fifth-block .address-time-text {
+        color: rgba(51, 51, 51, 1);
+        font-family: 'Roboto', sans-serif;
+        font-size: 14px;
+    }
+    
+    .top-header-fifth-block .address-time-logo {
+        margin-left: 2%;
+    }
+
+    .top-header-fifth-block .user-logo {
+        display: none;
+    }
+
+    .top-header-sixth-block .lang-text-mobile {
+        display: none;
+    }
+    
+    .switch-btn {
+        display: inline-block;
+        position: relative;
+        width: 66px;
+        height: 36px;
+        border-radius: 20px;
+        background: #A4E1D9;
+    }
+
+    .switch-btn input[type="checkbox"] {
+        opacity: 0;
+        width: 0;
+        height: 0;
+    }
+    
+    .slider {
+        position: absolute;
+        cursor: pointer;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #A4E1D9;
+        -webkit-transition: .4s;
+        transition: .4s;
+        border-radius: 34px;
+        background-color: rgb(167,224,217);
+        border-radius: 20px 20px 10px 10px;
+        padding-top: 8px;
+    }
+    
+    .slider:before {
+        border-radius: 50%;
+        box-shadow: 0px 0.75px 1px 0px gray;
+    }
+    
+    .slider:before {
+        background-color: white;
+        color: rgba(91, 91, 91, 1);
+        position: absolute;
+        content: "UA";
+        font-family: 'Roboto', sans-serif;
+        font-size: small;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Roboto', sans-serif;
+        font-size: 14px;
+        height: 26px;
+        width: 26px;
+        left: 4px;
+        bottom: 4px;
+        background-color: white;
+        -webkit-transition: .4s;
+        transition: .4s;
+    }
+    
+    input:checked+.slider {
+        background-color: #259589;
+    }
+    
+    input:focus+.slider {
+        box-shadow: 0 0 1px #259589;
+        left: 5px;
+        top: 5px;
+        content: "UA";
+        transition: .3s;
+        -webkit-transition: .3s;
+    }
+    
+    input:checked+.slider:before {
+        transform: translateX(26px);
+        -ms-transform: translateX(26px);
+        -webkit-transform: translateX(26px);
+        content: "RU";
+        transform: translateX(30px);
+        -ms-transform: translateX(30px);
+        -webkit-transform: translateX(30px);
+    }
+    
+    .lng-sign {
+        font-family: 'Roboto', sans-serif;
+        font-size: 14px;
+        color: rgba(32, 154, 143, 1);
+        margin-left: 55%;
+        margin-top: 16%;
+    }
+    
+    .bottom-header-first-block {
+        position: relative;
+        padding-top: 0.8%;
+    }
+    
+    .bottom-header-first-block input {
+        font-family: 'Roboto', sans-serif;
+        width: 35%;
+        height: 35px;
+        border-radius: 20px;
+        background: rgba(224, 224, 224, 0.5);
+        border: none;
+        box-shadow: 0px 1px 2px rgb(186, 186, 186) inset;
+        font-size: 14px;
+        padding-left: 40px;
+        color: rgba(156, 156, 156, 1);
+    }
+    
+    .bottom-header-first-block input:focus {
+        outline: none;
+    }
+    
+    .bottom-header-first-block input::placeholder {
+        color: rgba(156, 156, 156, 1);
+    }
+    
+    .bottom-header-first-block .loupe-logo {
+        position: absolute;
+        padding-top: 0.6%;
+        padding-left: 1%;
+    }
+}
+
+@media (max-width: 961px) {    
+    .top-header {
+        min-height: 5svh;
+        padding: 0 5%;
+    }
+    
+    .bottom-header {
+        display: none;
+    }
+    
+    .top-header {
+        grid-template-columns: 1fr 1fr 1fr 5fr 1fr 1fr;
+    }
+
+    .block {
+        display: flex;
+        justify-content: center;
+    }
+
+    .top-header-first-block .main-logo {
+        display: none;
+    }
+
+    .top-header-second-block .phone {
+        display: none;
+    }
+
+    .top-header-second-block .phone-text {
+        display: none;
+    }
+
+    .top-header-third-block button {
+        display: none;
+    }
+
+    .top-header-fourth-block .main-logo {
+        text-align: center;
+        padding: 5% 0;
+    }
+
+    .top-header-fourth-block .user-logo {
+        display: none;
+    }
+
+    .top-header-fourth-block .account-text {
+        display: none;
+    }
+
+    .top-header-fifth-block .address-time-text {
+        display: none;
+    }
+
+    .top-header-fifth-block .address-time-logo {
+        display: none;
+    }
+
+    .top-header-sixth-block .switch-btn {
+        display: none;
+    }
+
+    .top-header-sixth-block .lang-text-mobile {
+        font-family: 'robotoLight', sans-serif;
+        font-family: 'Roboto', sans-serif;
+        font-size: 18px;
+        font-weight: bold;
+        color: rgba(32, 154, 143, 1);
+    }
+>>>>>>> Stashed changes
 }
 
 .top-header {
     background-color: var(--top-header-bg-color);
+<<<<<<< Updated upstream
     min-height: 10svh;
     padding: 0 12%;
+=======
+    background-color: rgb(246,248,247);
+>>>>>>> Stashed changes
 }
 
 .bottom-header {
