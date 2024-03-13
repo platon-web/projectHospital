@@ -1,0 +1,14 @@
+@font-face {
+    font-family: robotoLight;
+    src: url(../public/fonts/Roboto-Light.ttf);
+}
+
+@font-face {
+    font-family: gothamProMedium;
+    src: url(../public/fonts/GothamProMedium.ttf);
+}
+
+@font-face {
+    font-family: gothamProBold;
+    src: url(../public/fonts/GothamProBold.ttf);
+}

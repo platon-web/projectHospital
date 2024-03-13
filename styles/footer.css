@@ -1,0 +1,186 @@
+@media (min-width: 962px) {
+    footer {
+        display: grid;
+        grid-template-columns: 1.4fr 2fr 1fr;
+        background-color: white;
+        margin-bottom: 5%;
+        padding: 0 10%;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .footer-left-block {
+        flex-direction: column;
+        grid-column: 1;
+        font-size: 28px;
+    }
+
+    .footer-middle-block {
+        grid-column: 2;
+        font-size: 20px;
+    }
+
+    .footer-right-block {
+        grid-column: 3;
+    }
+
+    .footer-text.upper {
+        color: rgba(245, 138, 7, 1);
+    }
+
+    .footer-text.lower {
+        color: rgb(41,155,142);
+    }
+
+    .footer-middle-block input {
+        height: 90%;
+        border-radius: 30px 0 0 30px;
+        padding-left: 3%;
+        font-size: 20px;
+    }
+
+    .footer-middle-block button {
+        height: 90%;
+        background-color: rgba(49, 187, 172, 1);
+        outline: 1px solid rgba(49, 187, 172, 1);
+        border-radius: 0 30px 30px 0;
+        padding: 0 1%;
+    }
+
+    .footer-middle-block button:hover {
+        background-color: rgb(42, 159, 145);
+        outline: 1px solid rgb(42, 159, 145);
+    }
+
+    .footer-timer-logo {
+        content: url("../images/timer_green_logo.svg");
+    }
+
+    .footer-timer {
+        padding-left: 5%;
+    }
+
+    .gray-number {
+        color: gray;
+    }
+
+    .required-field-mobile {
+        display: none;
+    }
+}
+
+@media (max-width: 961px) {
+    footer {
+        display: grid;
+        grid-template-rows: 1fr 1fr 2fr;
+        background-color: rgba(49, 187, 172, 1);
+        padding: 5% 10%;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .footer-left-block {
+        flex-direction: column;
+        grid-row: 2;
+        font-size: 28px;
+    }
+
+    .footer-middle-block {
+        flex-direction: column;
+        grid-row: 3;
+        font-size: 20px;
+    }
+
+    .footer-middle-block input {
+        padding: 2% 3%;
+        font-size: 18px;
+    }
+
+    .footer-right-block {
+        grid-row: 1;
+    }
+
+    .footer-text {
+        color: white;
+        font-size: 24px;
+    }
+
+    .footer-middle-block button {
+        background-color: rgba(245, 138, 7, 1);
+        border-radius: 31px;
+        padding: 2.5% 5%;
+    }
+
+    .footer-middle-block button:hover {
+        background-color: rgb(223, 126, 7);
+        padding: 2.5% 5%;
+    }
+
+    .footer-timer-logo {
+        content: url("../images/timer_white_logo.svg");
+    }
+
+    .footer-timer {
+        padding-left: 2.5%;
+    }
+
+    .gray-number {
+        color: white;
+    }
+
+    .required-field-mobile {
+        color: white;
+        margin-top: 1%;
+        margin-bottom: 5%;
+        font-size: 12px;
+    }
+}
+
+.block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-text.upper {
+    font-family: robotoLight;
+}
+
+.footer-text.lower {
+    font-weight: bold;
+}
+
+.footer-middle-block {
+    height: 100%;
+}
+
+.footer-middle-block input {
+    border: 1px solid rgba(156, 156, 156, 1);
+}
+
+.footer-middle-block input:focus {
+    outline: none;
+    border: 1px solid rgba(156, 156, 156, 1);
+    color: gray;
+}
+
+.footer-middle-block input::placeholder {
+    color: rgba(156, 156, 156, 1);
+}
+
+.footer-middle-block button {
+    color: white;
+    border: 0;
+    font-size: 20px;
+    width: 35svh;
+}
+
+.footer-middle-block button:hover {
+    cursor: pointer;
+}
+
+.footer-timer {
+    font-size: 50px;
+}
+
+.orange-number {
+    color: rgba(245, 138, 7, 1);
+}
