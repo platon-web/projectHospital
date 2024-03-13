@@ -1,4 +1,4 @@
-@media (min-width: 961px) {
+@media (min-device-width: 961px) {
     header {box-shadow: 0 5px 5px rgb(213,213,213);
     }
     
@@ -187,7 +187,7 @@
     }
 }
 
-@media (max-width: 961px) {    
+@media (max-device-width: 961px) {    
     .top-header {
         min-height: 5svh;
         padding: 0 5%;

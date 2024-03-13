@@ -47,7 +47,7 @@ a {
     color: rgba(41, 155, 142, 1);
 }
 
-@media (min-width: 961px) {
+@media (min-device-width: 961px) {
     .container {
         grid-template-columns: 1fr 1fr; 
         grid-template-rows: 1fr 1fr;
@@ -88,7 +88,7 @@ a {
     }    
 }
 
-@media (max-width: 961px) {
+@media (max-device-width: 961px) {
     .container {
         grid-template-rows: auto auto auto;
         padding: 0 5%;

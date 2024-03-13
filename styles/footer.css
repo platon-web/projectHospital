@@ -1,4 +1,4 @@
-@media (min-width: 961px) {
+@media (min-device-width: 961px) {
     footer {
         display: grid;
         grid-template-columns: 1.4fr 2fr 1fr;
@@ -68,7 +68,7 @@
     }
 }
 
-@media (max-width: 961px) {
+@media (max-device-width: 961px) {
     footer {
         display: grid;
         grid-template-rows: 1fr 1fr 2fr;
